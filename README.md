@@ -76,7 +76,7 @@ python ip_analyzer.py -i 8.8.8.8
 To Analyze a List of IPs from a File
 Make sure you have a file named ips.txt with one IP address per line.
 
-Bash
+
 
 python ip_analyzer.py -f ips.txt
 Understanding the Output
@@ -89,12 +89,12 @@ ip_reputation_results.csv.enc.sha256: A text file containing the SHA256 hash of 
 app.log: A detailed, timestamped log file that serves as an audit trail for all actions and errors.
 
 To Decrypt and View a Report
-Bash
-
 python decrypt_report.py
+
 To Verify a Report's Integrity
-Bash
 
 python verify_report.py
+
+
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
