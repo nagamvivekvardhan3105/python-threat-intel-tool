@@ -1,0 +1,12 @@
+# Ignore Python's cache files
+__pycache__/
+
+# Ignore secret files - VERY IMPORTANT
+.env
+secret.key
+
+# Ignore output files and logs
+*.log
+*.csv
+*.enc
+*.sha256

@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Analyze IP File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // This is the important part:
+            // It adds command-line arguments when you run the script.
+            "args": [
+                "-f",
+                "ips.txt"
+            ]
+        }
+    ]
+}
